@@ -1,0 +1,123 @@
+#interfaceGame{
+    box-shadow: 0px 0px 30px #470000;
+    border-radius: 50px 50px 0px 0pc;
+    padding: 0.5% 0px;
+    color: whitesmoke;
+    width: 1600px;
+    margin: 2% auto;
+    display: none;
+    background-color: #4b4b4b;
+}
+
+.boxPdv{
+    display: inline-block;
+    width: 47.8%;
+    padding: 1%;
+    height: 70px;
+}
+.boxPdv p {
+    padding: 5px 10px;
+    margin: 0px;
+    font-size: 130%;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.boxPdv span{
+    background-color: #990000;
+    border-radius: 60px;
+    width: 90%;
+    box-shadow: 0px 0px 30px #212121;
+    height: 20px;
+    display: block;
+}
+#game{
+    position: relative !important;
+    background: url("../IMG/background-game.png");
+    margin: 20px auto;
+    width: 1500px;
+    height: 600px;
+    box-shadow: 0px 0px 20px black;
+}
+#moneyGame{
+    display: inline-table;
+    width: 9%;
+    vertical-align: top;
+    padding: 0px;
+}
+#moneyGame img{
+    width: 30px;
+}
+#moneyGame span{
+    vertical-align: super;
+}
+#pion{
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    /* background-color: #660000; */
+    display: none;
+    display: block;
+}
+#tabPions{
+    /* background-color: #660000; */
+    margin: 0px auto;
+    display: inline-table;
+    /* padding: 5px; */
+    border-collapse: collapse;
+    /* box-shadow: 0px 0px 30px #290202; */
+}
+
+#pion tr{
+    /* margin: 0px 10px; */
+    display: inline-table;
+    /* box-shadow: 0px 0px 30px #470000; */
+}
+#tabPions td{
+    /* border: 2px solid #4b4b4b; */
+    height: 150px;
+    width: 185px;
+    background: linear-gradient( rgba(75,75,75,1) 15%,rgba(153,0,0,1) 50%,rgba(153,0,0,1) 65%, rgba(75,75,75,1) 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    vertical-align: top;
+    text-align: center;
+}
+#tabPions td h2{
+    margin: 5px 0px;
+}
+
+#tabPions td img{
+    display: block;
+    height: 75px;
+    margin: auto;
+}
+
+
+#tabPions td:hover, .pionSelected{
+    background: whitesmoke !important;
+    color: #4b4b4b;
+}
+.pionSelected {
+    background-color: whitesmoke;
+    color: #4b4b4b;
+}
+
+#tabGame {
+    display: table !important;
+    width: 100%;
+}
+
+.pdv{
+    height: 10px;
+    background: whitesmoke;
+    margin-top: 88px;
+    text-align: center;
+    padding: 1px;
+    vertical-align: bottom;
+    border-radius: 10px;
+}
+.pdv span{
+    display: block;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #990000;
+}
